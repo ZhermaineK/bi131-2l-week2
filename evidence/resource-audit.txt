@@ -1,0 +1,11 @@
+=== LOCAL RESOURCE AUDIT ===
+OS / Kernel: macOS (Darwin 24.6.0 arm64)
+Architecture: Apple Silicon (ARM64)
+Total Memory: 8 GB (or your exact RAM from sysctl)
+Free Disk Space: ~188 GiB available on /System/Volumes/Data
+GPU: None (NVIDIA GPU / CUDA drivers unavailable on macOS)
+
+=== ALPHAFOLD 3 REQUIREMENTS VS. LOCAL CAPABILITY ===
+- Hardware Requirement: High-end Linux workstation with compatible NVIDIA GPU (CUDA), minimum 64 GB RAM, and ~1 TB disk space for sequence databases.
+- Observed Local Environment: Apple Silicon Mac with limited RAM (8 GB) and no CUDA-compatible NVIDIA GPU.
+- Conclusion: Full local inference of AlphaFold 3 is NOT feasible or appropriate on this machine. Running CPU-only inference would be prohibitively slow (~100x slower), and local storage cannot house the full 1 TB genetic databases. A local-control and remote-compute design (utilizing AlphaFold DB / AlphaFold Server) is required.
