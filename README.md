@@ -8,3 +8,7 @@
 - **Canonical Sequence Length:** 110 aa
 - **Source URL:** https://www.uniprot.org/uniprotkb/P01308
 - **Retrieval Date:** 2026-08-31
+
+## Low-Confidence Residue Extraction
+- **Extraction Command:** Executed `awk` query targeting Cα atoms with pLDDT < 70.
+- **Low-Confidence Residues Identified:** Primarily located within the N-terminal signal sequence (residues 1–24).
