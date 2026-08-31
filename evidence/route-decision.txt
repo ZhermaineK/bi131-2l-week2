@@ -1,0 +1,5 @@
+=== PREDICTION ROUTE DECISION ===
+- Assigned Accession: P01308
+- Primary Route: AlphaFold DB (AFDB baseline structure retrieval)
+- Secondary Route: AlphaFold Server live monomer submission
+- Justification: Local compute audit demonstrated lack of CUDA-compatible NVIDIA GPU and sufficient RAM for local AF3 inference. AlphaFold DB provides the validated baseline model, supplemented by AlphaFold Server for live prediction submission.
