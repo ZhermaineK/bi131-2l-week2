@@ -1,0 +1,2 @@
+accession	sequence_length	mean_pLDDT	highest_confidence_region	low_confidence_region	PAE_pattern	interpretation_limit
+P01308	110	84.5	25-50, 90-108	1-24 (signal peptide)	Two well-defined domain blocks corresponding to processed chains	pLDDT/PAE cannot predict physiological oligomeric states or hexamer formation
