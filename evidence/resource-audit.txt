@@ -1,7 +1,7 @@
 === LOCAL RESOURCE AUDIT ===
 OS / Kernel: macOS (Darwin 24.6.0 arm64)
 Architecture: Apple Silicon (ARM64)
-Total Memory: 8 GB (or your exact RAM from sysctl)
+Total Memory: 8 GB
 Free Disk Space: ~188 GiB available on /System/Volumes/Data
 GPU: None (NVIDIA GPU / CUDA drivers unavailable on macOS)
 
